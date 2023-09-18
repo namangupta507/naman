@@ -1014,8 +1014,8 @@ li.nav-item a.item1:after {
     content: "\f107";
     font-family: "FontAwesome";
     position: absolute;
-    top: 10px;
-    right: 39%;
+    top: 9px;
+    right: 36%;
 }
 }
 
