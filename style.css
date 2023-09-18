@@ -1029,12 +1029,6 @@ li.nav-item a.item1:after {
     transition: transform 0.35s;
     transform: translate3d(0,100%,0);
 }
-.hide-style3 .overlay-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 4px;
-}
 .hide-style3 .overlay-content h2 {
     font-size: 16px;
     color: #4b4b4b;
@@ -1045,7 +1039,7 @@ li.nav-item a.item1:after {
 }
 .hide-style3 .overlay-content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
     padding-top: 8px;
 }
