@@ -1039,8 +1039,8 @@ li.nav-item a.item1:after {
 }
 .hide-style3 .overlay-content {
     display: flex;
-    justify-content:justify-evenly;
-    align-items:flex-start;
+    justify-content: space-evenly;
+    align-items: center;
     padding-top: 4px;
 }
 }
