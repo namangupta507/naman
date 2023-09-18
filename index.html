@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="./slick.css">
+        <script src="./slick.min.js"></script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+   <header>
+        <div class="section-1">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-icon" href="#"><i class="bi bi-twitter"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-icon" aria-current="page" href="#"><i
+                                            class="fa fa-facebook-f"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-icon" href="#"><i class="fa fa-google-plus"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-icon" href="#"><i class="bi bi-pinterest"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-icon" href="#"><i class="bi bi-dribbble"></i></a>
+                                </li>
+                            </ul>
+                            <div class="d-flex">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link d-flex" aria-current="page" href="#"><i
+                                                class="bi bi-telephone-fill"></i>+1 718-999-3939
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link d-flex" href="#"><i
+                                                class="bi bi-envelope-fill"></i>contact@construction.com
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link d-flex" href="#"><i class="bi bi-clock"></i>Mon-Fri: 7:00 -
+                                            17:00
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </nav>
+            </div>
+        </div> 
+        <div class="section-2">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg justify-content-between navbar-dark">
+                    <!-- <div class="container-fluid"> -->
+                        <a class="navbar-brand" href="#"><img class="img-fluid" src="./images/logo2.png"
+                                style="width:200px"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="two">
+                                <li class="nav-item">
+                                    <a class="nav-link item1" id="nav-icon1" aria-current="page" href="#">Home</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item"><a href="home-slider-full-screen.html">Home 1 - Full Slider</a></li>
+                                        <li class="menu-item"><a href="home-slider-simple.html">Home 1 - Simple Slider</a></li>
+                                        <li class="menu-item"><a href="home-hero-slideshow.html">Home 1 - Slideshow 1</a></li>
+                                        <li class="menu-item"><a href="home-hero-slideshow-2.html">Home 1 - Slideshow 2</a></li>
+                                        <li class="menu-item"><a href="home-header-fixed.html">Home 1 - Header Fixed</a></li>
+                                        <li class="menu-item"><a href="home-2-slider-simple.html">Home 2 - Simple Slider</a></li>
+                                        <li class="menu-item"><a href="home-3-hero-slideshow.html">Home 3 - Slideshow</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item item1">
+                                    <a class="nav-link item1" id="nav-icon1" aria-current="page" href="#">Pages</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item"><a href="page-contact.html">Contact</a></li>
+                                        <li class="menu-item"><a href="page-about.html">About Us</a></li>
+                                        <li class="menu-item"><a href="page-about-2.html">About Us 2</a></li>
+                                        <li class="menu-item"><a href="page-services.html">Services</a></li>
+                                        <li class="menu-item"><a href="page-services-2.html">Services 2</a></li>
+                                        <li class="menu-item"><a href="page-service-detail.html">Service Detail</a></li>
+                                        <li class="menu-item"><a href="page-shop.html">Shop</a></li>
+                                        <li class="menu-item"><a href="page-shop-single.html">Shop Single</a></li>
+                                        <li class="menu-item"><a href="page-shop-cart.html">Shop Cart</a></li>
+                                        <li class="menu-item"><a href="blog-single.html">Blog Single</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link item1" id="nav-icon1" aria-current="page" href="#">Elements</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item"><a href="icons.html">Construction Icons</a></li>
+                                        <li class="menu-item"><a href="buttons.html">Buttons</a></li>
+                                        <li class="menu-item"><a href="toggles.html">Toggles</a></li>
+                                        <li class="menu-item"><a href="typography.html">Typography</a></li>
+                                        <li class="menu-item"><a href="galleries.html">Galleries</a></li>
+                                        <li class="menu-item"><a href="iconboxs.html">IconBoxs</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link  item1" id="nav-icon1" aria-current="page" href="#">Portfolio</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item"><a href="page-portfolio-grid.html">Grid</a></li>
+                                        <li class="menu-item"><a href="page-portfolio-grid-fullwidth.html">Grid Full-Width</a></li>
+                                        <li class="menu-item"><a href="page-portfolio-slider.html">Slider</a></li>
+                                        <li class="menu-item"><a href="page-portfolio-slider-fullwidth.html">Slider Full-Width</a></li>
+                                        <li class="menu-item"><a href="page-project-detail.html">Project Detail 1</a></li>
+                                        <li class="menu-item"><a href="page-project-detail-2.html">Project Detail 2</a></li>
+                                        <li class="menu-item"><a href="page-project-detail-3.html">Project Detail 3</a></li>
+                                        <li class="menu-item"><a href="page-project-detail-4.html">Project Detail 4</a></li>                               
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-icon1" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-icon1" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-icon1" href="#"><i class="bi bi-search"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link item2" id="nav-icon1" href="#"><i class="bi bi-cart-fill"></i><span class="shopping-cart-items-count">3</span></a>
+                                  <div class="nav-shop-cart">
+                                    <div class="widget_shopping_cart_content">
+                                        <ul class="cart_list product_list_widget ">
+                                            <li class="mini_cart_item">
+                                                <a href="#" class="remove" title="Remove this item">×</a>
+                                                <a href="#">
+                                                    <img width="160" height="160" src="../main/images/add-4.jpg" alt="image">
+                                                    Shop Item 01
+                                                </a>
+                                                            
+                                                <span class="quantity">1 × <span class="woocommerce-Price-amount amount">
+                                                    <span class="woocommerce-Price-currencySymbol">$</span>200.00</span>
+                                                </span>
+                                            </li>
+                                            <li class="mini_cart_item">
+                                                <a href="#" class="remove" title="Remove this item">×</a>
+                                                <a href="#">
+                                                    <img width="160" height="160" src="../main/images/s2.jpg" alt="image">
+                                                    Shop Item 02
+                                                </a>
+                                                            
+                                                <span class="quantity">1 × <span class="woocommerce-Price-amount amount">
+                                                    <span class="woocommerce-Price-currencySymbol">$</span>70.00</span>
+                                                </span>
+                                            </li>
+                                            <li class="mini_cart_item">
+                                                <a href="#" class="remove" title="Remove this item">×</a>
+                                                <a href="#">
+                                                    <img width="160" height="160" src="../main/images/ori.jpg" alt="image">
+                                                    Shop Item 03
+                                                </a>
+                                                            
+                                                <span class="quantity">1 × <span class="woocommerce-Price-amount amount">
+                                                    <span class="woocommerce-Price-currencySymbol">$</span>30.00</span>
+                                                </span>
+                                            </li>
+                                        </ul><!-- /.product_list_widget -->
+            
+                                        <p class="total">
+                                            <strong>Subtotal:</strong>
+                                            <span class="woocommerce-Price-amount amount">
+                                                <span class="woocommerce-Price-currencySymbol">$</span>300.00
+                                            </span>
+                                        </p>
+                    
+                                        <p class="buttons">
+                                            <a href="#" class="wprt-button small">View Cart</a>
+                                            <a href="#" class="wprt-button small checkout">Checkout</a>
+                                        </p>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
+                </nav>
+            </div>
+        </div>
+    </header>  
+            <div class="slider-top">
+                  <div class="slide-top">
+                    <img src="./images/bg-image.jpg" class="img-fluid">
+                      <div class="inner-text">
+                        <div>
+                            <h1>Construction 
+                                <br>
+                                Managers since 1981</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia est animi itaque </p>
+                            <a href="#">our portfolio</a>
+                        </div>
+                  </div>
+                </div>
+                  <div class="slide-top">
+                    <img src="./images/bg-image2.jpg" class="img-fluid">
+                      <div class="inner-text">
+                        <div>
+                            <h1>Construction 
+                                <br>
+                                Managers since 1981</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia est animi itaque </p>
+                            <a href="#">our portfolio</a>
+                        </div>
+                  </div>
+        </div>
+    </div>
+
+    <div class="section-3">
+        <div class="container">
+            <div class="row pt-5 pb-5">
+                <div class="col-md-10 pt-2">
+                    <p class="text-white" style="font-size:30px;">Contractors & Construction Managers Since 1981</p>
+                </div>
+                <div class="col-md-2 pt-2">
+                    <button type="button" class="btn" id="button1" style="font-size: 18px;">GET A QUOTE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-4">
+        <div class="container">
+            <div class="row pt-3 pb-3">
+                <div class="col-md-12 text-center">
+                    <h1 id="line1" class="pt-3 pb-3" style="color: #4b4b4b;position: relative;text-transform: uppercase;">Main Services</h1>
+                </div>
+            </div>
+            <div class="row pt-3 pb-3">
+                <div class="col-md-4 pt-3 pb-3 pt-3 pb-3 vt-blur">
+                    <div class="row justify-content-evenly">
+                        <div class="col-md-2 pt-3 pb-3">
+                            <span class="rounded-circle">
+                               
+                                <span>
+                                <img class="img-fluid  vt-image" style="height: 40px;" src="./images/stationery (1).png">
+                            </span>
+                          
+                                </span>
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="pb-3 pt-2" style="color:#4b4b4b;font-size:23px;">
+                                Construction Consultant
+                            </h3>
+                            <p style="color: #4b4b4b;">Vestibulum eu libero volutpat, portas quam, tempus sem. Donec
+                                sodales quam id lorem lobortis, vitae interdum nisl.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-3 pb-3">
+                    <div class="row justify-content-evenly">
+                        <div class="col-md-2 pt-3 pb-3">
+                            <span class="rounded-circle">
+                                <span>
+                                <img class="img-fluid  vt-image" style="height: 40px;" src="./images/house-with-dollar-sign-on-a-hand (1).png">
+                                </span>
+                            </span>
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="pb-3 pt-2" style="color:#4b4b4b;font-size:23px;">Architectural Design</h3>
+                            <p style="color: #4b4b4b;">Vestibulum eu libero volutpat, portas quam, tempus sem. Donec
+                                sodales quam id lorem lobortis, vitae interdum nisl.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-3 pb-3">
+                    <div class="row justify-content-evenly">
+                        <div class="col-md-2 pt-3 pb-3">
+                            <span class="rounded-circle">
+                                <span>
+                                <img class="img-fluid  vt-image" style="height: 40px;"
+                                    src="./images/lightbulb (1).png"></i>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="pb-3 pt-2" style="color:#4b4b4b;font-size:23px;">Electrical System</h3>
+                            <p style="color: #4b4b4b;">Vestibulum eu libero volutpat, portas quam, tempus sem. Donec
+                                sodales quam id lorem lobortis, vitae interdum nisl.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 pt-3 pb-3">
+                    <div class="row justify-content-evenly">
+                        <div class="col-md-2 pt-3 pb-3"> 
+                            <span class="rounded-circle">
+                                <span>
+                            <img class="img-fluid  vt-image" style="height: 40px;" src="./images/race (1).png">
+                        </span>
+                    </span>
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="pb-3 pt-2" style="color:#4b4b4b;font-size:23px;">General Contracting</h3>
+                            <p style="color: #4b4b4b;">Vestibulum eu libero volutpat, portas quam, tempus sem. Donec
+                                sodales quam id lorem lobortis, vitae interdum nisl.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-3 pb-3">
+                    <div class="row justify-content-evenly">
+                        <div class="col-md-2 pt-3 pb-3">
+                            <span class="rounded-circle">
+                                <span>
+                                <img class="img-fluid  vt-image" style="height: 40px;" src="./images/drill (1).png">
+                            </span>
+                        </span>
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="pb-3 pt-2" style="color:#4b4b4b;font-size:23px;">Resconstruction Services</h3>
+                            <p style="color: #4b4b4b;">Vestibulum eu libero volutpat, portas quam, tempus sem. Donec
+                                sodales quam id lorem lobortis, vitae interdum nisl.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-3 pb-3">
+                    <div class="row justify-content-evenly">
+                        <div class="col-md-2 pt-3 pb-3">
+                            <span class="rounded-circle">
+                                <span>
+                                <img class="img-fluid  vt-image" style="height: 40px;" src="./images/water-pipe (1).png">
+                            </span>
+                        </span>
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="pb-3 pt-2" style="color:#4b4b4b;font-size:23px;">Plumbilg Services</h3>
+                            <p style="color: #4b4b4b;">Vestibulum eu libero volutpat, portas quam, tempus sem. Donec
+                                sodales quam id lorem lobortis, vitae interdum nisl.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-5">
+        <div class="container">
+            <div class="row pt-5 pb-5">
+                <div class="col-md-12">
+                    <h1 id="line2" style="color: #fff;position: relative;text-transform: uppercase;">Featured Work</h1>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                <div id="slider1">
+                    <div  class="b1">
+                         <img class="img-fluid" src="./images/img1.jpg">
+                        <div class="hide">
+                            <div class="overlay-content">
+                            <p>Construction</p>
+                            <h2>
+                                LUXURY BUILDINGS
+                            </h2>
+                        </div>
+                      </div></div>
+                      <div class="b1">
+                        <img class="img-fluid" src="./images/img1b.jpg">
+                        <div class="hide-style3">
+                            <div class="overlay-content">
+                                <h2>
+                                    LUXURY BUILDINGS
+                                </h2>
+                            <p >Construction</p>
+                        </div></div>
+                    </div>
+                      <div class="b1">
+                    <img class="img-fluid" src="./images/img1a.jpg">
+                    <div class="hide">
+                        <div class="overlay-content">
+                        <p >Construction</p>
+                        <h2>
+                            LUXURY BUILDINGS
+                        </h2>
+                    </div></div>
+                </div>
+                <div class="b1">
+                    <img class="img-fluid" src="./images/img1d.jpg">
+                    <div class="hide">
+                        <div class="overlay-content">
+                        <p >Construction</p>
+                        <h2>
+                            LUXURY BUILDINGS
+                        </h2>
+                    </div></div>
+                </div>
+                <div class="b1">
+                    <img class="img-fluid" src="./images/img1e.jpg">
+                    <div class="hide-style2">
+                        <div class="overlay-content1">
+                            <div>
+                            <h2>
+                                LUXURY BUILDINGS
+                            </h2>
+                        <p >Construction</p>
+                    </div>
+                    </div></div>
+                </div>
+                <div class="b1">
+                    <img class="img-fluid" src="./images/img1f.jpg">
+                    <div class="hide">
+                        <div class="overlay-content">
+                        <p >Construction</p>
+                        <h2>
+                            LUXURY BUILDINGS
+                        </h2>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+            </div>
+            </div>
+        </div>
+    <div class="section-6 pt-5 pb-5">
+        <div class="container">
+            <div class="row pt-3 pb-3">
+                <div class="col-md-6 pt-2 pb-2">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 id="line3">WHY CHOOSE US?</h1>
+                        </div>
+                    </div>
+              <div class="row pt-5 pb-3">
+                <div class="col-md-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span id="ac1">We have 30 plus years in the building industry</span>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span id="ac1">Quality construction continues after the project</span>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span id="ac1">We use technology to do the job more quickly</span>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <span id="ac1">Employees are continually trained on safety issues</span>
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                </div>
+                </div>
+                <div class="col-md-6 pt-2 pb-2">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1  id="line4">ABOUT US</h1>
+                        </div>
+                    </div>
+                    <div class="row pt-5 pb-3">
+                <div class="slider slider-content">
+                    <div>
+                          <img class="img-fluid" src="./images/img1c.jpg">
+                        </div>
+                    <div>
+                          <img class="img-fluid" src="./images/n1.jpg">
+                        </div>
+                    <div>
+                          <img class="img-fluid" src="./images/n2.jpg">
+                        </div>
+                    <div>
+                          <img class="img-fluid" src="./images/n3.jpg">
+                        </div>
+                </div>
+                <div class="slider slider-thumb pt-3">
+                    <div>
+                        <img class="img-fluid" src="./images/img1cf.jpg">
+                    </div>
+                    <div>
+                        <img class="img-fluid" src="./images/img1cb.jpg">
+                    </div>
+                    <div>
+                        <img class="img-fluid" src="./images/img1cc.jpg">
+                    </div>
+                    <div>
+                        <img class="img-fluid" src="./images/img1ce.jpg">
+                    </div>
+                </div>
+            </div>
+                <!-- end -->
+                </div>
+                  </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="section-7 pt-5 pb-5">
+                        <div class="container">
+                            <div class="row pt-3 pb-3">
+                                <div class="col-md-12 pt-3 pb-5">
+                                    <h1 id="line5">WHAT WE OFFER</h1>
+                                </div>
+                                <div class="col-md-4 pt-3 pb-4">
+                                    <img class="img-fluid" src="./images/i1.jpg">
+                                    <h3 class="pt-5 pb-2" style="color: #4b4b4b;">The Green Building</h3>
+                                    <p class="pt-2 pb-2" style="color: #4b4b4b;">Nulla iaculis turpis in nibh aliquam maximus. In dignissim arcu vel diam scelerisque, pretium urna </p>
+                                    <a href="#" id="btn2">Read More</a>
+                                </div>
+                                <div class="col-md-4 pt-3 pb-4">
+                                    <img class="img-fluid" src="./images/i2.jpg">
+                                    <h3 class="pt-5 pb-2" style="color: #4b4b4b;">House Renovation</h3>
+                                    <p class="pt-2 pb-2" style="color: #4b4b4b;">Nulla iaculis turpis in nibh aliquam maximus. In dignissim arcu vel diam scelerisque, pretium urna </p>
+                                    <a href="#" id="btn2">Read More</a>
+                                </div>
+                                <div class="col-md-4 pt-3 pb-4">
+                                    <img class="img-fluid" src="./images/i3.jpg">
+                                    <h3 class="pt-5 pb-2" style="color: #4b4b4b;">Design & Construction</h3>
+                                    <p class="pt-2 pb-2" style="color: #4b4b4b;">Nulla iaculis turpis in nibh aliquam maximus. In dignissim arcu vel diam scelerisque, pretium urna </p>
+                                    <a href="#" id="btn2">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-8">
+                    <div class="container">
+                        <div class="row pt-5 pb-3">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-8 text-end" id="cd">
+                                <h3 class="text-white">The Construction Company</h3>
+                                <h1 class="text-white" style="font-size: 70px;"><strong>AWESOME FACTS</strong></h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                            </div>
+                            <div class="col-md-2 text-center">
+                                <p id="number" class="counter-count">13691</p>
+                                <p style="color: #eee;" id="num">PROJECT COMPLETED</p>
+                            </div>
+                            <div class="col-md-2 text-center">
+                                <p  id="number" class="counter-count">1725</p>
+                                <p style="color: #eee;" id="num">SATISFIED CLIENTS</p>
+                            </div>
+                            <div class="col-md-2 text-center">
+                                <p  id="number" class="counter-count">984</p>
+                                <p style="color: #eee;" id="num">WORKERS EMPLOYED</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-9 pt-5 pb-5">
+                    <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12 pt-3 pb-3">
+                                    <h1  id="line6">OUR PARTNERS</h1>
+                                </div>
+                                <div class="col-md-4 col-12 pt-3 pb-3 vt-box">
+                                    <img class="img-fluid" style="width: 100%;" src="./images/j1.png">
+                                </div>
+                                <div class="col-md-4 col-12 pt-3 pb-3 vt-box">
+                                    <img class="img-fluid" style="width: 100%;" src="./images/j2.png">
+                                </div>
+                                <div class="col-md-4 col-12 pt-3 pb-3 vt-box">
+                                    <img class="img-fluid" style="width: 100%;" src="./images/j3.png">
+                                </div>
+                                <div class="col-md-4 col-12 pt-3 pb-4 vt-box">
+                                    <img class="img-fluid" style="width: 100%;" src="./images/j4.png">
+                                </div>
+                                <div class="col-md-4 col-12 pt-3 pb-4 vt-box">
+                                    <img class="img-fluid" style="width: 100%;" src="./images/j5.png">
+                                </div>
+                                <div class="col-md-4 col-12 pt-3 pb-4 vt-box">
+                                    <img class="img-fluid" style="width: 100%;" src="./images/j6.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12 pt-3 pb-3">
+                                    <h1 id="line7">TESTIMONIALS</h1>
+                                </div>
+                                </div>
+                                <div class="row pt-3 pb-3">
+                                    <div class="col-md-12">
+                                        <div class="slider2">
+                                <div class="bigger-box">
+                                <div class="box">
+                                    <p style="font-style: italic;">Your efficient planning, scheduling, management, and supervision resulted in timely completion and a quality facility...Particularly refreshing was the spirit of cooperation demonstrated by your firm which served to minimize costly delays and contract modifications.</p>
+                                </div>
+                                <div class="box-2">
+                                <div class="popup-box">
+                                  <img class="img-fluid rounded-circle" src="./images/k1.jpg" style="width: 80px;">
+                                <div class="text-v">
+                                    <h4 style="color: #4b4b4b;">DON PAULSON</h4>
+                                    <p style="color: #adadad;">Architectural Co.</p>
+                                </div>
+                                </div>
+                                <div class="rating-stars">
+                                    <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                                    <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                                    <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                                    <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                                    <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bigger-box">
+                            <div class="box">
+                                <p style="font-style: italic;">Your efficient planning, scheduling, management, and supervision resulted in timely completion and a quality facility...Particularly refreshing was the spirit of cooperation demonstrated by your firm which served to minimize costly delays and contract modifications.</p>
+                            </div>
+                            <div class="box-2">
+                            <div class="popup-box">
+                              <img class="img-fluid rounded-circle" src="./images/k2.jpg" style="width: 80px;">
+                            <div class="text-v">
+                                <h4 style="color: #4b4b4b;">DON PAULSON</h4>
+                                <p style="color: #adadad;">Architectural Co.</p>
+                            </div>
+                            </div>
+                            <div class="rating-stars">
+                                <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                                <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                                <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                                <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                                <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bigger-box">
+                        <div class="box">
+                            <p style="font-style: italic;">Your efficient planning, scheduling, management, and supervision resulted in timely completion and a quality facility...Particularly refreshing was the spirit of cooperation demonstrated by your firm which served to minimize costly delays and contract modifications.</p>
+                        </div>
+                        <div class="box-2">
+                        <div class="popup-box">
+                          <img class="img-fluid rounded-circle" src="./images/k3.jpg" style="width: 80px;">
+                        <div class="text-v">
+                            <h4 style="color: #4b4b4b;">DON PAULSON</h4>
+                            <p style="color: #adadad;">Architectural Co.</p>
+                        </div>
+                        </div>
+                        <div class="rating-stars">
+                            <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                            <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                            <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                            <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                            <i class="fa fa-star" style="color: #ffbc13;" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>                
+                </div>
+                <div class="section-10 pt-5 pb-5">
+                    <div class="container">
+                        <div class="row pt-3 pb-3">
+                            <div class="col-md-4">
+                                <div class="row pt-3 pb-5">
+                                    <div class="col-md-12">
+                                        <h2 id="line8" style="color: white;">ABOUT US</h2>
+                                    </div>
+                                </div>
+                                    <div class="row">
+                                    <div class="col-md-12">
+                                        <img class="img-fluid" src="./images/logo2.png" style="width: 200px;">
+                                    </div>
+                                </div>
+                                <div class="row pt-4 pb-3">
+                                    <div class="col-md-12">
+                                        <p style="color: #979797;">Building isn’t just a job. At the Construction Company, it is our passion. With every project we undertake, we set the bar high and provide the best people in the industry, with a true love of what we do to make our Customers’ vision a reality.</p>
+                                    </div>
+                                </div>
+                                </div>
+                            <div class="col-md-4">
+                                <div class="row pt-3 pb-5">
+                                    <div class="col-md-12">
+                                        <h2 id="line9" style="color: white;">COMPANY LINKS</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-md-6 col-6">
+                                    <ul id="list1">
+                                       <li style="color: #979797;" class="pb-3">History</li>
+                                        <li style="color: #979797;" class="pb-3">Team & Awards</li>
+                                        <li style="color: #979797;" class="pb-3">Community</li>
+                                        <li style="color: #979797;" class="pb-3">News & Events</li>
+                                        <li style="color: #979797;" class="pb-3">FAQ</li>
+                                        <li style="color: #979797;" class="pb-3">Contact Us</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <ul id="list1">
+                                        <li style="color: #979797;" class="pb-3">Services</li>
+                                        <li style="color: #979797;" class="pb-3">Delivery Methods</li>
+                                        <li style="color: #979797;" class="pb-3">Safety</li>
+                                        <li style="color: #979797;" class="pb-3">Sustainability</li>
+                                        <li style="color: #979797;" class="pb-3">Portfolio</li>
+                                        <li style="color: #979797;" class="pb-3">Shop</li>
+                                    </ul>
+                                </div>
+                            </div></div>
+                            <div class="col-md-4">
+                                <div class="row pt-3 pb-5">
+                                    <div class="col-md-12">
+                                        <h2 id="line10" style="color: white;">CONTACT INFO</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="row">
+                                        <div class="col-md-2">
+                                            <p style="font-size:15px;color:#979797;">Address:</p>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <p style="font-size:15px;color:#979797;">1379 Shoreline Parkway, Mountain View, CA 94043, United States</p>
+                                        </div>
+                                       </div>
+                                       <div class="row">
+                                        <div class="col-md-2">
+                                            <p style="font-size:15px;color:#979797;">Phone:</p>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <p style="font-size:15px;color:#979797;">+1 718-999-3939</p>
+                                        </div>
+                                       </div>
+                                       <div class="row">
+                                        <div class="col-md-2">
+                                            <p style="font-size:15px;color:#979797;">E-mail:</p>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <p style="font-size:15px;color:#979797;">contact@construction.com</p>
+                                        </div>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="row pt-4 pb-3">
+                                    <div class="col-md-1 col-2">
+                                        <a href="#" id="icon">
+                                            <i style="color: white;" class="bi bi-twitter"></i>
+                                        </a>   
+                                    </div>
+                                    <div class="col-md-1 col-2">
+                                         <a href="#" id="icon">
+                                            <i style="color: white;" class="fa fa-facebook-f"></i>
+                                         </a>                                     
+                                    </div>
+                                    <div class="col-md-1 col-2">
+                                         <a href="#" id="icon">
+                                            <i style="color: white;" class="fa fa-google-plus" aria-hidden="true"></i>
+                                         </a>                           
+                                    </div>
+                                    <div class="col-md-1 col-2">
+                                         <a href="#" id="icon">
+                                            <i style="color: white;" class="bi bi-pinterest"></i>
+                                         </a>
+                                    </div>
+                                    <div class="col-md-1 col-2">
+                                         <a href="#" id="icon">
+                                            <i style="color: white;" class="bi bi-dribbble"></i>
+                                         </a>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <a id="scroll-top" class="show"  onclick="topFunction()"></a>
+                </div>
+
+
+                
+                <script>
+                    $('.counter-count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+          
+          //change count up speed here
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+                    </script>
+                    <script>
+                         $('.hero-banner').slick({
+  dots: true,
+  infinite:false,
+  speed: 300,
+  slidesToShow:1,
+  slidesToScroll: 2,
+//   responsive: 
+                         })
+                    </script>
+</body>
+</html>
